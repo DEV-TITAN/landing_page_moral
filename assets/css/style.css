@@ -512,6 +512,7 @@ section {
 /*--------------------------------------------------------------
 # App Features
 --------------------------------------------------------------*/
+/*
 .features .content {
   padding: 30px 0;
 }
@@ -551,6 +552,32 @@ section {
   .features .image img {
     max-width: 100%;
   }
+}
+*/
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+.about-us .icon-box {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.about-us .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.about-us .icon-box i {
+  font-size: 48px;
+  color: #5777ba;
+  
+}
+
+.about-us .icon-box p {
+  font-size: 15px;
+  color: #979aa1;
 }
 
 /*--------------------------------------------------------------
