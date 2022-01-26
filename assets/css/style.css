@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   position: relative;
   overflow: hidden;
-  padding: 140px 0 250px 0;
+  padding: 140px 0 180px 0;
 }
 
 #hero::before {
@@ -386,6 +386,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #43A4EE ;
 }
 
+#hero .hero-img img {
+  width: 75%;
+}
 #hero .download-btn i {
   font-size: 20px;
   position: absolute;
@@ -623,6 +626,10 @@ section {
   font-size: 15px;
   color: #979aa1;
   margin-left: 60px;
+}
+
+.features .image img {
+  max-width: 75%;
 }
 
 @media (max-width: 991px) {
@@ -999,7 +1006,16 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info {
+.contact .info-row1 {
+  padding: 20px 40px;
+  background: #f1f3f6;
+  color: #6A85B5;
+  text-align: center;
+  border: 1px solid #fff;
+  margin: 20px 0 0 0 ;
+}
+
+.contact .info-row2{
   padding: 20px 40px;
   background: #f1f3f6;
   color: #6A85B5;
@@ -1007,13 +1023,20 @@ section {
   border: 1px solid #fff;
 }
 
-.contact .info i {
+.contact .info-row1 i {
   font-size: 48px;
   color: #9fb2d8;
   margin-bottom: 15px;
 }
 
-.contact .info h4 {
+.contact .info-row2 i {
+  font-size: 48px;
+  color: #9fb2d8;
+  margin-bottom: 15px;
+}
+
+
+.contact .info-row1 h4 {
   padding: 0;
   margin: 0 0 10px 0;
   font-size: 16px;
@@ -1022,8 +1045,27 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.contact .info p {
+.contact .info-row2 h4 {
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.contact .info-row1 p {
   font-size: 15px;
+}
+
+.contact .info-row2 p {
+  font-size: 15px;
+}
+
+.contact img {
+  max-width: 70%;
+  padding: 20px 0 20px 100px;
 }
 
 .contact .php-email-form {
